@@ -1,12 +1,17 @@
 
 import './App.css'
 import Nav from './components/NAV'
+import AuthButtons from './components/AuthButtons'
+import Header from './components/Header'
+import Trending from './components/Trending'
 function App() {
  return (
-  <div className='grid grid-cols-5'>
+  <div className='grid md:grid-cols-5'>
     <Nav></Nav>
-    <main className='col-span-4 bg-red-400'>
-      HHSHDHD
+    <main className='px-12 py-6 col-span-4 bg-cyan-50 md:col-span-4'>
+      <AuthButtons/>
+      <Header/>
+      <Trending/>
     </main>
   </div>
  )

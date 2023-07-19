@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       fontFamily:{
         barlow:['"Barlow Condened"', 'sans-serif']
+      },
+      colors:{
+        primary:"#16405B"
       }
     },
   },
